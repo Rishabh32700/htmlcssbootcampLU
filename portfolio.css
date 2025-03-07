@@ -1,0 +1,43 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* element selector */
+/* these are those selectors which are being targeted by their names directly */
+header{
+    border: 2px solid red;
+    height: 100px;
+    width: 100%;
+}
+
+section{
+    /* height: 500px; */
+    width: 100%;
+    border: 2px solid black;
+    padding-left: 20px;
+}
+
+div{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* class selector */
+/* when u use . (dot) it signify that u are refering to the class selector */
+
+.yellow{
+
+}
+
+.red{
+
+}
+
+/* id selector */
+/* when u use # (hash) it signify that u are refering to the id selector */
+#secondElemet{
+
+}
+
