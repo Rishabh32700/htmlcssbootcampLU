@@ -13,26 +13,75 @@ header{
 section{
     /* height: 500px; */
     width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding-left: 20px;
 }
 
 div{
-    border: 2px solid black;
     border-radius: 20px;
     margin: 20px;
     padding: 20px;
 }
 
+img{
+width: 200px;
+height: 200px; 
+}
 /* class selector */
 /* when u use . (dot) it signify that u are refering to the class selector */
 
-.yellow{
+.project,
+.projectContainer{
+    display: flex;
+    flex-direction: row;
+    
 
 }
 
-.red{
+.project1Container,
+.project2Container,
+.project3Container,
+.project4Container{
+    border: 2px solid black;
+    box-shadow: 2px 3px 10px black;
+}
 
+.project1Container:hover,
+.project2Container:hover,
+.project3Container:hover,
+.project4Container:hover{
+    background-color: rgb(255, 58, 58);
+    cursor: pointer;
+    transform: scale(1.08);
+    transition: 0.3s ease-in-out;
+}
+
+.projectContainer{
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    padding: 30px;
+    justify-content: space-between;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.feedbackForm{
+    display: flex;
+    justify-content: center;
 }
 
 /* id selector */
